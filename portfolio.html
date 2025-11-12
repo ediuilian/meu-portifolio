@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Meu Portfólio — Seu Nome</title>
+  <meta name="description" content="Portfólio profissional. Clique para conversar no WhatsApp.">
+  <style>
+    :root{--accent:#25D366;--bg:#0f1720;--card:#0b1220;--muted:#9aa4b2}
+    *{box-sizing:border-box}
+    body{margin:0;font-family:Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;background:linear-gradient(180deg,#071021 0%, #081628 100%);color:#e6eef6}
+    .container{max-width:980px;margin:36px auto;padding:24px}
+    header{display:flex;align-items:center;gap:16px}
+    .avatar{width:84px;height:84px;border-radius:12px;background:linear-gradient(135deg,#2c7be5,#7c3aed);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:28px}
+    h1{margin:0;font-size:24px}
+    p.lead{margin:6px 0 0;color:var(--muted)}
+    .card{background:rgba(255,255,255,0.03);padding:18px;border-radius:12px;margin-top:20px}
+    .hero{display:flex;flex-wrap:wrap;gap:18px;align-items:center}
+    .hero .left{flex:1;min-width:260px}
+    .hero .right{width:220px}
+    .btn{display:inline-block;padding:10px 14px;border-radius:10px;background:var(--accent);color:#052017;text-decoration:none;font-weight:700}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit, minmax(200px,1fr));gap:12px;margin-top:14px}
+    .service{background:rgba(255,255,255,0.02);padding:12px;border-radius:10px}
+    .portfolio img{width:100%;height:140px;object-fit:cover;border-radius:8px}
+    footer{margin-top:28px;text-align:center;color:var(--muted);font-size:14px}
+    .meta{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px}
+    @media (max-width:640px){.hero{flex-direction:column}.hero .right{width:100%}}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="avatar">SN</div>
+      <div>
+        <h1>Seu Nome — Profissão / Serviço</h1>
+        <p class="lead">Frase curta: Transformando ideias em resultados.</p>
+        <div class="meta">
+          <span>📍 Cidade, Estado</span>
+          <span>•</span>
+          <span>📧 seu@email.com</span>
+        </div>
+      </div>
+    </header>
+
+    <section class="card hero">
+      <div class="left">
+        <h2>O que eu faço</h2>
+        <p>Sou especialista em [insira seu serviço aqui — ex: design gráfico, eletricista, manutenção, marketing digital]. Trabalho com projetos sob medida e atendimento rápido.</p>
+
+        <div style="margin-top:12px">
+          <!-- Substitua o número abaixo por seu número no formato internacional sem +, ex: 5511999999999 -->
+          <a class="btn" href="https://wa.me/5511999999999" target="_blank" rel="noopener noreferrer">💬 Conversar no WhatsApp</a>
+        </div>
+      </div>
+
+      <div class="right">
+        <h3>Serviços rápidos</h3>
+        <div class="grid">
+          <div class="service">🔧 Serviço 1</div>
+          <div class="service">🎨 Serviço 2</div>
+          <div class="service">⚡ Serviço 3</div>
+          <div class="service">📦 Serviço 4</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Portfólio</h2>
+      <p class="lead">Alguns trabalhos recentes — substitua as imagens por suas fotos.</p>
+      <div class="grid portfolio">
+        <img src="https://via.placeholder.com/600x400?text=Projeto+1" alt="Projeto 1">
+        <img src="https://via.placeholder.com/600x400?text=Projeto+2" alt="Projeto 2">
+        <img src="https://via.placeholder.com/600x400?text=Projeto+3" alt="Projeto 3">
+        <img src="https://via.placeholder.com/600x400?text=Projeto+4" alt="Projeto 4">
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Preço e contato</h2>
+      <p>Atendo por orçamento. Para agilizar, envie uma mensagem com: nome, serviço desejado e local.</p>
+      <div style="margin-top:12px">
+        <a class="btn" href="https://wa.me/5511999999999" target="_blank" rel="noopener noreferrer">Pedir orçamento</a>
+      </div>
+    </section>
+
+    <footer>
+      Criado por Você • Atualize este arquivo com seu nome e telefone. <br>
+      Dica: abra este arquivo no navegador para pré-visualizar (duplo-clique em <code>portfolio.html</code>).
+    </footer>
+  </div>
+</body>
+</html>
